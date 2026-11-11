@@ -1,0 +1,124 @@
+{
+  "common": {
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "loading": "Loading...",
+    "on": "On",
+    "off": "Off",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "userId": "User ID"
+  },
+  "language": {
+    "label": "Language",
+    "triggerLabel": "Language: {{language}}",
+    "followSystem": "System",
+    "followSystemWithLanguage": "System ({{language}})",
+    "enUS": "English",
+    "zhCN": "Chinese"
+  },
+  "errors": {
+    "notFound": {
+      "code": "404",
+      "title": "Road closed",
+      "description": "This patrol route is not available.",
+      "home": "Return to patrol base"
+    },
+    "global": {
+      "title": "The patrol system stalled",
+      "description": "Reload the app to restart the control layer.",
+      "retry": "Try again"
+    }
+  },
+  "intro": {
+    "status": {
+      "sector": "NIGHT RUN READY",
+      "version": "HAND CAM ON"
+    },
+    "audio": {
+      "toggle": "Toggle sound"
+    },
+    "title": {
+      "main": "TOKYO",
+      "sub": "HIGHWAY DODGE"
+    },
+    "description": "Swerve through glowing traffic with your hand. Make a fist to grab the car, then slide left and right to dodge the chaos.",
+    "tutorial": {
+      "badge": "QUICK HAND WARMUP",
+      "step1": {
+        "title": "1. MAKE A FIST",
+        "desc": "Close your hand to grab the car"
+      },
+      "step2": {
+        "title": "2. WIGGLE TO STEER",
+        "desc": "Move left and right to dodge traffic"
+      },
+      "privacy": "Your camera stays local in your browser",
+      "security": "NO UPLOADS"
+    },
+    "action": {
+      "start": "START DODGING"
+    },
+    "specs": {
+      "display": "RUNS AT 60FPS",
+      "engine": "HAND TRACKING: ON",
+      "bestLabel": "BEST RUN:",
+      "best": "{{score}} m"
+    },
+    "perks": {
+      "title": "ROAD PERKS",
+      "coin": "Coins add bonus meters",
+      "shield": "Rare shield blocks one crash for 15s",
+      "swap": "Ultra-rare swap turns traffic into rewards"
+    },
+    "leaderboard": {
+      "title": "TOP RUNS",
+      "empty": "Finish a run to fill your board"
+    }
+  },
+  "calibration": {
+    "title": "GET YOUR HAND READY",
+    "subtitle": "Allow the camera, raise one hand, then make a fist when you are ready to steer.",
+    "statusLoading": "Warming up hand tracking",
+    "statusCamera": "Asking for camera access",
+    "statusReady": "Hand tracking is ready",
+    "statusError": "Camera or hand tracking did not start",
+    "countdown": "{{count}}",
+    "permissionDenied": "Camera permission was denied. Turn camera access back on in your browser, then restart the run.",
+    "mediapipeFailed": "Hand tracking could not load. Check your network and try again.",
+    "continueFallback": "Play without camera"
+  },
+  "game": {
+    "score": "METERS",
+    "speed": "SPEED",
+    "combo": "STREAK",
+    "lives": "LIVES",
+    "gripLocked": "GRIP LOCKED",
+    "handOpen": "HAND OPEN",
+    "noHand": "NO HAND",
+    "cameraPreview": "Tracking preview",
+    "nearMiss": "NEAR MISS",
+    "shieldActive": "SHIELD {{seconds}}s",
+    "swapActive": "SWAP BURST",
+    "pause": "Pause",
+    "resume": "Resume",
+    "exit": "Back to menu",
+    "fallbackTitle": "Camera control unavailable",
+    "fallbackBody": "The game can still run in demo mode, but hand steering needs camera access and MediaPipe Hands."
+  },
+  "gameover": {
+    "title": "CRASHED OUT",
+    "subtitle": "That last hit ended the run.",
+    "finalScore": "FINAL METERS",
+    "bestScore": "BEST METERS",
+    "restart": "TRY AGAIN",
+    "menu": "BACK TO START",
+    "share": "SHARE RUN",
+    "newBest": "NEW BEST RUN",
+    "shareCopied": "COPIED!",
+    "shareFailed": "COPY FAILED"
+  }
+}

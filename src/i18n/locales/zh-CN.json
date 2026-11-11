@@ -1,0 +1,124 @@
+{
+  "common": {
+    "signIn": "登录",
+    "signOut": "退出登录",
+    "loading": "加载中...",
+    "on": "开",
+    "off": "关",
+    "close": "关闭",
+    "save": "保存",
+    "cancel": "取消",
+    "edit": "编辑",
+    "delete": "删除",
+    "userId": "用户 ID"
+  },
+  "language": {
+    "label": "语言",
+    "triggerLabel": "语言：{{language}}",
+    "followSystem": "跟随系统",
+    "followSystemWithLanguage": "跟随系统（{{language}}）",
+    "enUS": "English",
+    "zhCN": "中文"
+  },
+  "errors": {
+    "notFound": {
+      "code": "404",
+      "title": "道路封闭",
+      "description": "这条巡逻路线暂不可用。",
+      "home": "返回巡逻基地"
+    },
+    "global": {
+      "title": "巡逻系统停滞",
+      "description": "重新加载应用以恢复控制层。",
+      "retry": "重试"
+    }
+  },
+  "intro": {
+    "status": {
+      "sector": "夜跑准备好了",
+      "version": "手势摄像头已开"
+    },
+    "audio": {
+      "toggle": "切换声音"
+    },
+    "title": {
+      "main": "TOKYO",
+      "sub": "HIGHWAY DODGE"
+    },
+    "description": "用手在霓虹车流里左右闪避。握拳抓住小车，再左右移动躲开混乱路况。",
+    "tutorial": {
+      "badge": "快速热手",
+      "step1": {
+        "title": "1. 先握拳",
+        "desc": "合上手掌就能抓住小车"
+      },
+      "step2": {
+        "title": "2. 左右晃动",
+        "desc": "左右移动来躲开车流"
+      },
+      "privacy": "摄像头只在浏览器本地处理",
+      "security": "不会上传"
+    },
+    "action": {
+      "start": "开始闪避"
+    },
+    "specs": {
+      "display": "60FPS 运行",
+      "engine": "手势追踪：开启",
+      "bestLabel": "最佳成绩：",
+      "best": "{{score}} m"
+    },
+    "perks": {
+      "title": "道路道具",
+      "coin": "金币增加奖励米数",
+      "shield": "稀有护盾 15 秒内挡一次撞击",
+      "swap": "超稀有交换把车流变成奖励"
+    },
+    "leaderboard": {
+      "title": "高手榜",
+      "empty": "完成一局即可填入你的榜单"
+    }
+  },
+  "calibration": {
+    "title": "准备好你的手",
+    "subtitle": "允许摄像头，抬起一只手，准备好转向时握拳。",
+    "statusLoading": "正在热身手势追踪",
+    "statusCamera": "正在请求摄像头权限",
+    "statusReady": "手势追踪准备好了",
+    "statusError": "摄像头或手势追踪没有启动",
+    "countdown": "{{count}}",
+    "permissionDenied": "摄像头权限被拒绝。请在浏览器里重新开启摄像头，然后再开始一局。",
+    "mediapipeFailed": "手势追踪加载失败。请检查网络后再试一次。",
+    "continueFallback": "无摄像头开玩"
+  },
+  "game": {
+    "score": "米数",
+    "speed": "速度",
+    "combo": "连闪",
+    "lives": "生命",
+    "gripLocked": "握拳锁定",
+    "handOpen": "手掌张开",
+    "noHand": "未检测到手",
+    "cameraPreview": "追踪预览",
+    "nearMiss": "擦身而过",
+    "shieldActive": "护盾 {{seconds}} 秒",
+    "swapActive": "交换爆发",
+    "pause": "暂停",
+    "resume": "继续",
+    "exit": "返回菜单",
+    "fallbackTitle": "摄像头控制不可用",
+    "fallbackBody": "游戏仍可用演示模式运行，但手势转向需要摄像头权限和 MediaPipe Hands。"
+  },
+  "gameover": {
+    "title": "撞车啦",
+    "subtitle": "最后那一下结束了本局。",
+    "finalScore": "最终米数",
+    "bestScore": "最佳米数",
+    "restart": "再来一局",
+    "menu": "回到开始",
+    "share": "分享本局",
+    "newBest": "新的最佳成绩",
+    "shareCopied": "已复制！",
+    "shareFailed": "复制失败"
+  }
+}
